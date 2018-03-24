@@ -58,7 +58,9 @@ import javax.annotation.PreDestroy;
 @ConditionalOnClass(Feign.class)
 @EnableConfigurationProperties({FeignClientProperties.class, FeignHttpClientProperties.class})
 public class FeignAutoConfiguration {
-
+	
+	//verma chnages
+	private String verma;
 	@Autowired(required = false)
 	private List<FeignClientSpecification> configurations = new ArrayList<>();
 
