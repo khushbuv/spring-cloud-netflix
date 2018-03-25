@@ -32,6 +32,7 @@ public class RibbonHttpResponse extends AbstractClientHttpResponse {
 
 	private HttpResponse response;
 	private HttpHeaders httpHeaders;
+	private HttpHeaders httpHeaders2;
 
 	public RibbonHttpResponse(HttpResponse response) {
 		this.response = response;
